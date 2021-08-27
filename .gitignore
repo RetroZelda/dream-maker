@@ -1,3 +1,7 @@
+# my files
+3rd-party/
+temp/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
