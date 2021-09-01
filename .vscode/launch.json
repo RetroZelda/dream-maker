@@ -64,6 +64,21 @@
                 "slow"
             ],
             "console": "integratedTerminal"
+        },
+        {
+            "name": "cnnmrf",
+            "type": "python",
+            "request": "launch",
+            "program": "scripts/cnnmrf.py",
+            "args": [
+                "-i",
+                "/home/dreamer/dream-maker/test-files/test-image.jpg",
+                "-s",
+                "/home/dreamer/dream-maker/test-files/test-style.jpg",
+                "-o",
+                "/home/dreamer/dream-maker/output/test_output"
+            ],
+            "console": "integratedTerminal"
         }
     ]
 }
